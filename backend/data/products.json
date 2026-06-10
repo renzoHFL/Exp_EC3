@@ -1,24 +1,144 @@
 {
   "productos": [
-    {"id": 1, "nombre": "Agua sin gas", "marca": "San Luis", "precio": 1.50, "stock": 15},
-    {"id": 2, "nombre": "Agua con gas", "marca": "San Mateo", "precio": 2.00, "stock": 15},
-    {"id": 3, "nombre": "Gaseosa Cola", "marca": "Coca-Cola", "precio": 2.50, "stock": 15},
-    {"id": 4, "nombre": "Gaseosa naranja", "marca": "Fanta", "precio": 2.50, "stock": 15},
-    {"id": 5, "nombre": "Gaseosa lima limón", "marca": "Sprite", "precio": 2.50, "stock": 15},
-    {"id": 6, "nombre": "Energizante", "marca": "Red Bull", "precio": 6.00, "stock": 10},
-    {"id": 7, "nombre": "Papas fritas", "marca": "Lays", "precio": 2.00, "stock": 15},
-    {"id": 8, "nombre": "Papas fritas picantes", "marca": "Cheetos", "precio": 2.00, "stock": 15},
-    {"id": 9, "nombre": "Chocolate", "marca": "Sublime", "precio": 2.00, "stock": 15},
-    {"id": 10, "nombre": "Chocolate con leche", "marca": "Triángulo", "precio": 1.50, "stock": 15},
-    {"id": 11, "nombre": "Galletas", "marca": "Oreo", "precio": 2.50, "stock": 15},
-    {"id": 12, "nombre": "Galletas vainilla", "marca": "Soda Field", "precio": 1.50, "stock": 15},
-    {"id": 13, "nombre": "Wafer", "marca": "Nicolini", "precio": 1.00, "stock": 15},
-    {"id": 14, "nombre": "Chocolate", "marca": "Doña Pepa", "precio": 2.00, "stock": 15},
-    {"id": 15, "nombre": "Jugo", "marca": "Pulp", "precio": 3.50, "stock": 10},
-    {"id": 16, "nombre": "Sándwich jamón queso", "marca": "Bimbo", "precio": 4.50, "stock": 10},
-    {"id": 17, "nombre": "Sándwich pollo", "marca": "Bimbo", "precio": 5.00, "stock": 10},
-    {"id": 18, "nombre": "Yogurt", "marca": "Gloria", "precio": 3.00, "stock": 10},
-    {"id": 19, "nombre": "Cereal barra", "marca": "Ángel", "precio": 2.50, "stock": 10},
-    {"id": 20, "nombre": "Queque", "marca": "Bimbo", "precio": 2.50, "stock": 10}
+    {
+      "id": 1,
+      "nombre": "Agua sin gas",
+      "marca": "San Luis",
+      "precio": 1.5,
+      "stock": 14
+    },
+    {
+      "id": 2,
+      "nombre": "Agua con gas",
+      "marca": "San Mateo",
+      "precio": 2.0,
+      "stock": 15
+    },
+    {
+      "id": 3,
+      "nombre": "Gaseosa Cola",
+      "marca": "Coca-Cola",
+      "precio": 2.5,
+      "stock": 15
+    },
+    {
+      "id": 4,
+      "nombre": "Gaseosa naranja",
+      "marca": "Fanta",
+      "precio": 2.5,
+      "stock": 14
+    },
+    {
+      "id": 5,
+      "nombre": "Gaseosa lima limón",
+      "marca": "Sprite",
+      "precio": 2.5,
+      "stock": 15
+    },
+    {
+      "id": 6,
+      "nombre": "Energizante",
+      "marca": "Red Bull",
+      "precio": 6.0,
+      "stock": 6
+    },
+    {
+      "id": 7,
+      "nombre": "Papas fritas",
+      "marca": "Lays",
+      "precio": 2.0,
+      "stock": 14
+    },
+    {
+      "id": 8,
+      "nombre": "Papas fritas picantes",
+      "marca": "Cheetos",
+      "precio": 2.0,
+      "stock": 11
+    },
+    {
+      "id": 9,
+      "nombre": "Chocolate",
+      "marca": "Sublime",
+      "precio": 2.0,
+      "stock": 13
+    },
+    {
+      "id": 10,
+      "nombre": "Chocolate con leche",
+      "marca": "Triángulo",
+      "precio": 1.5,
+      "stock": 10
+    },
+    {
+      "id": 11,
+      "nombre": "Galletas",
+      "marca": "Oreo",
+      "precio": 2.5,
+      "stock": 7
+    },
+    {
+      "id": 12,
+      "nombre": "Galletas vainilla",
+      "marca": "Soda Field",
+      "precio": 1.5,
+      "stock": 9
+    },
+    {
+      "id": 13,
+      "nombre": "Wafer",
+      "marca": "Nicolini",
+      "precio": 1.0,
+      "stock": 14
+    },
+    {
+      "id": 14,
+      "nombre": "Chocolate",
+      "marca": "Doña Pepa",
+      "precio": 2.0,
+      "stock": 14
+    },
+    {
+      "id": 15,
+      "nombre": "Jugo",
+      "marca": "Pulp",
+      "precio": 3.5,
+      "stock": 10
+    },
+    {
+      "id": 16,
+      "nombre": "Sándwich jamón queso",
+      "marca": "Bimbo",
+      "precio": 4.5,
+      "stock": 8
+    },
+    {
+      "id": 17,
+      "nombre": "Sándwich pollo",
+      "marca": "Bimbo",
+      "precio": 5.0,
+      "stock": 10
+    },
+    {
+      "id": 18,
+      "nombre": "Yogurt",
+      "marca": "Gloria",
+      "precio": 3.0,
+      "stock": 10
+    },
+    {
+      "id": 19,
+      "nombre": "Cereal barra",
+      "marca": "Ángel",
+      "precio": 2.5,
+      "stock": 8
+    },
+    {
+      "id": 20,
+      "nombre": "Queque",
+      "marca": "Bimbo",
+      "precio": 2.5,
+      "stock": 9
+    }
   ]
 }

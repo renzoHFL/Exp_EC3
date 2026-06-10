@@ -1,0 +1,130 @@
+{
+  "transacciones": [
+    {
+      "id": 1,
+      "producto_id": 11,
+      "monto_pagado": 50.0,
+      "vuelto": 47.5,
+      "fecha": "2026-06-10 04:10:55"
+    },
+    {
+      "id": 2,
+      "producto_id": 7,
+      "monto_pagado": 5.0,
+      "vuelto": 3.0,
+      "fecha": "2026-06-10 04:10:59"
+    },
+    {
+      "id": 3,
+      "producto_id": 12,
+      "monto_pagado": 50.0,
+      "vuelto": 48.5,
+      "fecha": "2026-06-10 04:11:02"
+    },
+    {
+      "id": 4,
+      "producto_id": 20,
+      "monto_pagado": 50.0,
+      "vuelto": 47.5,
+      "fecha": "2026-06-10 04:11:07"
+    },
+    {
+      "id": 5,
+      "producto_id": 12,
+      "monto_pagado": 50.0,
+      "vuelto": 48.5,
+      "fecha": "2026-06-10 04:12:22"
+    },
+    {
+      "id": 6,
+      "producto_id": 6,
+      "monto_pagado": 10.0,
+      "vuelto": 4.0,
+      "fecha": "2026-06-10 04:12:26"
+    },
+    {
+      "id": 7,
+      "producto_id": 4,
+      "monto_pagado": 20.0,
+      "vuelto": 17.5,
+      "fecha": "2026-06-10 04:12:29"
+    },
+    {
+      "id": 8,
+      "producto_id": 6,
+      "monto_pagado": 50.0,
+      "vuelto": 44.0,
+      "fecha": "2026-06-10 04:14:24"
+    },
+    {
+      "id": 9,
+      "producto_id": 19,
+      "monto_pagado": 10.0,
+      "vuelto": 7.5,
+      "fecha": "2026-06-10 04:14:30"
+    },
+    {
+      "id": 10,
+      "producto_id": 13,
+      "monto_pagado": 20.0,
+      "vuelto": 19.0,
+      "fecha": "2026-06-10 04:14:34"
+    },
+    {
+      "id": 11,
+      "producto_id": 11,
+      "monto_pagado": 20.0,
+      "vuelto": 17.5,
+      "fecha": "2026-06-10 04:30:34"
+    },
+    {
+      "id": 12,
+      "producto_id": 6,
+      "monto_pagado": 50.0,
+      "vuelto": 44.0,
+      "fecha": "2026-06-10 04:31:54"
+    },
+    {
+      "id": 13,
+      "producto_id": 10,
+      "monto_pagado": 20.0,
+      "vuelto": 18.5,
+      "fecha": "2026-06-10 04:31:58"
+    },
+    {
+      "id": 14,
+      "producto_id": 14,
+      "monto_pagado": 2.0,
+      "vuelto": 0.0,
+      "fecha": "2026-06-10 04:32:03"
+    },
+    {
+      "id": 15,
+      "producto_id": 16,
+      "monto_pagado": 50.0,
+      "vuelto": 45.5,
+      "fecha": "2026-06-10 04:32:06"
+    },
+    {
+      "id": 16,
+      "producto_id": 9,
+      "monto_pagado": 10.0,
+      "vuelto": 8.0,
+      "fecha": "2026-06-10 04:32:10"
+    },
+    {
+      "id": 17,
+      "producto_id": 11,
+      "monto_pagado": 200.0,
+      "vuelto": 197.5,
+      "fecha": "2026-06-10 04:36:52"
+    },
+    {
+      "id": 18,
+      "producto_id": 8,
+      "monto_pagado": 5.0,
+      "vuelto": 3.0,
+      "fecha": "2026-06-10 04:41:22"
+    }
+  ]
+}

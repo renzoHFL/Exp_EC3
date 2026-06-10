@@ -21,7 +21,10 @@ def guardar_productos(data):
 
 def leer_transacciones():
     with open(TRANSACTIONS_PATH, 'r', encoding='utf-8') as f:
-        return json.load(f)
+        contenido = f.read().strip()
+        if not contenido:
+            return {"transacciones": []}
+        return json.loads(contenido)
 
 def guardar_transaccion(transaccion):
     data = leer_transacciones()
