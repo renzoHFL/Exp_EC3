@@ -13,7 +13,7 @@
     {"id": 11, "nombre": "Galletas", "marca": "Oreo", "precio": 2.50, "stock": 15},
     {"id": 12, "nombre": "Galletas vainilla", "marca": "Soda Field", "precio": 1.50, "stock": 15},
     {"id": 13, "nombre": "Wafer", "marca": "Nicolini", "precio": 1.00, "stock": 15},
-    {"id": 14, "nombre": "Chifles", "marca": "Doña Pepa", "precio": 2.00, "stock": 15},
+    {"id": 14, "nombre": "Chocolate", "marca": "Doña Pepa", "precio": 2.00, "stock": 15},
     {"id": 15, "nombre": "Jugo", "marca": "Pulp", "precio": 3.50, "stock": 10},
     {"id": 16, "nombre": "Sándwich jamón queso", "marca": "Bimbo", "precio": 4.50, "stock": 10},
     {"id": 17, "nombre": "Sándwich pollo", "marca": "Bimbo", "precio": 5.00, "stock": 10},
