@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', 'Courier New', monospace;
+}
+
+body {
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.franja-ucsur {
+  width: 100%;
+  background: #1e3a8a;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.franja-logo {
+  color: #ffffff;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.franja-logo strong { color: #f0a500; }
+
+.franja-curso {
+  color: #93b4e8;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
+.contenedor {
+  width: 960px;
+  padding: 24px 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-title {
+  color: #111;
+  font-size: 13px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header-badge {
+  color: #aaa;
+  font-size: 9px;
+  letter-spacing: 3px;
+}
+
+.maquina {
+  display: flex;
+  width: 960px;
+  height: 680px;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.panel-productos {
+  flex: 1;
+  background: #fafafa;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  overflow-y: auto;
+  border-right: 1px solid #eeeeee;
+}
+
+.panel-productos::-webkit-scrollbar { width: 3px; }
+.panel-productos::-webkit-scrollbar-thumb { background: #ddd; border-radius: 2px; }
+
+.titulo-maquina {
+  text-align: center;
+  color: #888;
+  font-size: 9px;
+  letter-spacing: 4px;
+  padding: 8px;
+  border-bottom: 1px solid #eeeeee;
+  text-transform: uppercase;
+}
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.producto-card {
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  padding: 12px 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.producto-card:hover {
+  border-color: #1e3a8a;
+  box-shadow: 0 2px 12px rgba(30,58,138,0.1);
+  transform: translateY(-2px);
+}
+
+.producto-card.sin-stock {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.producto-card.sin-stock:hover {
+  transform: none;
+  border-color: #ebebeb;
+  box-shadow: none;
+}
+
+.producto-codigo {
+  font-size: 8px;
+  color: #ccc;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.producto-nombre {
+  font-size: 9px;
+  color: #333;
+  margin-bottom: 2px;
+  line-height: 1.4;
+}
+
+.producto-marca {
+  font-size: 7px;
+  color: #999;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.producto-precio {
+  font-size: 12px;
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.producto-stock {
+  font-size: 7px;
+  color: #bbb;
+  margin-top: 4px;
+  letter-spacing: 1px;
+}
+
+.panel-control {
+  width: 280px;
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.display {
+  background: #111;
+  border-radius: 10px;
+  padding: 16px 14px;
+  text-align: center;
+}
+
+.display-estado {
+  color: #999;
+  font-size: 8px;
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.display-dinero {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.display-mensaje {
+  color: #888;
+  font-size: 8px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.seccion-label {
+  color: #888;
+  font-size: 8px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 5px;
+}
+
+.botones-dinero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.btn-dinero {
+  flex: 1;
+  min-width: 55px;
+  padding: 9px 4px;
+  background: #f5f5f5;
+  color: #555;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 1px;
+  transition: all 0.15s;
+}
+
+.btn-dinero:hover {
+  background: #1e3a8a;
+  border-color: #1e3a8a;
+  color: #ffffff;
+}
+
+.btn-dinero:active { transform: scale(0.97); }
+
+.btn-dinero.billete {
+  background: #f9f9f9;
+  border: 1px dashed #ddd;
+  color: #666;
+}
+
+.btn-dinero.billete:hover {
+  background: #1e3a8a;
+  border: 1px solid #1e3a8a;
+  color: #ffffff;
+}
+
+.btn-cancelar {
+  width: 100%;
+  padding: 10px;
+  background: #fff5f5;
+  color: #cc3333;
+  border: 1px solid #fdd;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 9px;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.15s;
+}
+
+.btn-cancelar:hover {
+  background: #cc3333;
+  border-color: #cc3333;
+  color: #ffffff;
+}
+
+.historial {
+  background: #fafafa;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 12px;
+  color: #666;
+  font-size: 9px;
+  line-height: 2;
+  flex: 1;
+  letter-spacing: 1px;
+}

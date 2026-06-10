@@ -125,6 +125,13 @@
       "monto_pagado": 5.0,
       "vuelto": 3.0,
       "fecha": "2026-06-10 04:41:22"
+    },
+    {
+      "id": 19,
+      "producto_id": 1,
+      "monto_pagado": 200.0,
+      "vuelto": 198.5,
+      "fecha": "2026-06-10 18:19:59"
     }
   ]
 }

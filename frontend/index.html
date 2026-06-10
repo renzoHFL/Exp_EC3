@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Máquina Expendedora EC3 - UCSUR</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- FRANJA UCSUR -->
+  <div class="franja-ucsur">
+    <span class="franja-logo">UNIVERSIDAD <strong>CIENTÍFICA</strong> DEL SUR</span>
+    <span class="franja-curso">EC3 — Algoritmia y Estructuras de Datos</span>
+  </div>
+
+  <!-- CONTENIDO -->
+  <div class="contenedor">
+
+    <div class="header">
+      <span class="header-title">Máquina Expendedora</span>
+<span class="header-badge">EC3 · UCSUR · 2026</span>
+    </div>
+
+    <div class="maquina">
+
+      <!-- PANEL IZQUIERDO: PRODUCTOS -->
+      <div class="panel-productos">
+        <div class="titulo-maquina">Seleccione un producto</div>
+        <div class="grid-productos" id="grid-productos"></div>
+      </div>
+
+      <!-- PANEL DERECHO: CONTROL -->
+      <div class="panel-control">
+
+        <div class="display">
+          <div class="display-estado" id="display-estado">LISTO</div>
+          <div class="display-dinero">S/ <span id="display-monto">0.00</span></div>
+          <div class="display-mensaje" id="display-mensaje">Inserte dinero y seleccione un producto</div>
+        </div>
+
+        <div class="seccion-label">Monedas</div>
+        <div class="botones-dinero">
+          <button class="btn-dinero" onclick="insertarDinero(0.10)">S/ 0.10</button>
+          <button class="btn-dinero" onclick="insertarDinero(0.20)">S/ 0.20</button>
+          <button class="btn-dinero" onclick="insertarDinero(0.50)">S/ 0.50</button>
+          <button class="btn-dinero" onclick="insertarDinero(1.00)">S/ 1.00</button>
+          <button class="btn-dinero" onclick="insertarDinero(2.00)">S/ 2.00</button>
+          <button class="btn-dinero" onclick="insertarDinero(5.00)">S/ 5.00</button>
+        </div>
+
+        <div class="seccion-label">Billetes</div>
+        <div class="botones-dinero">
+          <button class="btn-dinero billete" onclick="insertarDinero(10.00)">S/ 10</button>
+          <button class="btn-dinero billete" onclick="insertarDinero(20.00)">S/ 20</button>
+          <button class="btn-dinero billete" onclick="insertarDinero(50.00)">S/ 50</button>
+          <button class="btn-dinero billete" onclick="insertarDinero(100.00)">S/ 100</button>
+          <button class="btn-dinero billete" onclick="insertarDinero(200.00)">S/ 200</button>
+        </div>
+
+        <button class="btn-cancelar" onclick="cancelar()">Cancelar / Devolver</button>
+
+        <div class="seccion-label">Última compra</div>
+        <div class="historial" id="historial">—</div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
