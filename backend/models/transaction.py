@@ -1,18 +1,28 @@
+# Modelo de Transaccion
+# Una transaccion registra cada compra realizada
+
 from datetime import datetime
 
-class Transaccion:
-    def __init__(self, id, producto_id, monto_pagado, vuelto):
-        self.id = id
-        self.producto_id = producto_id
-        self.monto_pagado = monto_pagado
-        self.vuelto = vuelto
-        self.fecha = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+def crear_transaccion(id, producto_id, monto_pagado, vuelto):
+    # Obtenemos la fecha y hora actual
+    fecha_actual = datetime.now()
+    fecha_texto = fecha_actual.strftime("%Y-%m-%d %H:%M:%S")
 
-    def to_dict(self):
-        return {
-            "id": self.id,
-            "producto_id": self.producto_id,
-            "monto_pagado": self.monto_pagado,
-            "vuelto": self.vuelto,
-            "fecha": self.fecha
-        }
+    transaccion = {
+        "id": id,
+        "producto_id": producto_id,
+        "monto_pagado": monto_pagado,
+        "vuelto": vuelto,
+        "fecha": fecha_texto
+    }
+    return transaccion
+
+def transaccion_a_diccionario(transaccion):
+    resultado = {
+        "id": transaccion["id"],
+        "producto_id": transaccion["producto_id"],
+        "monto_pagado": transaccion["monto_pagado"],
+        "vuelto": transaccion["vuelto"],
+        "fecha": transaccion["fecha"]
+    }
+    return resultado

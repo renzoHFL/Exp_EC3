@@ -220,7 +220,24 @@ body {
   text-transform: uppercase;
   border-bottom: 1px solid #f0f0f0;
   padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.toggle-moneda {
+  background: #1e3a8a;
+  color: #ffffff;
+  font-size: 7px;
+  letter-spacing: 2px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.toggle-moneda:hover { background: #f0a500; color: #000; }
+.toggle-moneda.activo { background: #2d7a2d; }
 
 .botones-dinero {
   display: flex;

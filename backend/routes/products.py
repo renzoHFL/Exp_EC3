@@ -1,16 +1,26 @@
+# Rutas de productos
+# Este archivo maneja todo lo relacionado a mostrar productos
+
 from flask import Blueprint, jsonify
 import json
 import os
 
+# Creamos el blueprint de productos
 products_bp = Blueprint('products', __name__)
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'products.json')
+# Ruta donde esta guardado el archivo de productos
+RUTA_PRODUCTOS = os.path.join(os.path.dirname(__file__), '..', 'data', 'products.json')
 
+# Funcion para leer los productos del archivo JSON
 def leer_productos():
-    with open(DATA_PATH, 'r', encoding='utf-8') as f:
-        return json.load(f)
+    archivo = open(RUTA_PRODUCTOS, 'r', encoding='utf-8')
+    datos = json.load(archivo)
+    archivo.close()
+    return datos
 
+# Endpoint GET /productos
+# Devuelve la lista completa de productos
 @products_bp.route('/productos', methods=['GET'])
 def get_productos():
-    data = leer_productos()
-    return jsonify(data)
+    datos = leer_productos()
+    return jsonify(datos)

@@ -1,25 +1,35 @@
-class Producto:
-    def __init__(self, id, nombre, marca, precio, stock):
-        self.id = id
-        self.nombre = nombre
-        self.marca = marca
-        self.precio = precio
-        self.stock = stock
+# Modelo de Producto
+# Un producto tiene: id, nombre, marca, precio y stock
 
-    def tiene_stock(self):
-        return self.stock > 0
+def crear_producto(id, nombre, marca, precio, stock):
+    producto = {
+        "id": id,
+        "nombre": nombre,
+        "marca": marca,
+        "precio": precio,
+        "stock": stock
+    }
+    return producto
 
-    def reducir_stock(self):
-        if self.tiene_stock():
-            self.stock -= 1
-            return True
+def tiene_stock(producto):
+    if producto["stock"] > 0:
+        return True
+    else:
         return False
 
-    def to_dict(self):
-        return {
-            "id": self.id,
-            "nombre": self.nombre,
-            "marca": self.marca,
-            "precio": self.precio,
-            "stock": self.stock
-        }
+def reducir_stock(producto):
+    if tiene_stock(producto):
+        producto["stock"] = producto["stock"] - 1
+        return True
+    else:
+        return False
+
+def producto_a_diccionario(producto):
+    resultado = {
+        "id": producto["id"],
+        "nombre": producto["nombre"],
+        "marca": producto["marca"],
+        "precio": producto["precio"],
+        "stock": producto["stock"]
+    }
+    return resultado
