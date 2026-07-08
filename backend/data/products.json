@@ -12,7 +12,7 @@
       "nombre": "Agua con gas",
       "marca": "San Mateo",
       "precio": 2.0,
-      "stock": 15
+      "stock": 13
     },
     {
       "id": 3,
@@ -68,7 +68,7 @@
       "nombre": "Chocolate con leche",
       "marca": "Triángulo",
       "precio": 1.5,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 11,
@@ -82,7 +82,7 @@
       "nombre": "Galletas vainilla",
       "marca": "Soda Field",
       "precio": 1.5,
-      "stock": 9
+      "stock": 7
     },
     {
       "id": 13,

@@ -153,6 +153,48 @@
       "monto_pagado": 3.7,
       "vuelto": 1.7,
       "fecha": "2026-07-07 19:31:21"
+    },
+    {
+      "id": 23,
+      "producto_id": 10,
+      "monto_pagado": 370.0,
+      "vuelto": 368.5,
+      "fecha": "2026-07-07 21:33:30"
+    },
+    {
+      "id": 24,
+      "producto_id": 12,
+      "monto_pagado": 185.0,
+      "vuelto": 183.5,
+      "fecha": "2026-07-07 21:33:46"
+    },
+    {
+      "id": 25,
+      "producto_id": 2,
+      "monto_pagado": 185.0,
+      "vuelto": 183.0,
+      "fecha": "2026-07-07 21:33:52"
+    },
+    {
+      "id": 26,
+      "producto_id": 1,
+      "monto_pagado": 200.0,
+      "vuelto": 198.5,
+      "fecha": "2026-07-07 21:39:42"
+    },
+    {
+      "id": 27,
+      "producto_id": 2,
+      "monto_pagado": 5.0,
+      "vuelto": 3.0,
+      "fecha": "2026-07-07 21:39:54"
+    },
+    {
+      "id": 28,
+      "producto_id": 12,
+      "monto_pagado": 370.0,
+      "vuelto": 368.5,
+      "fecha": "2026-07-07 21:40:48"
     }
   ]
 }
