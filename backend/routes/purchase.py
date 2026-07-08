@@ -118,7 +118,7 @@ def comprar(producto_id):
         "vuelto": vuelto
     })
 
-# GET /cancelar
+# para cancelar la compra
 # El usuario cancela y recupera su dinero
 @purchase_bp.route('/cancelar', methods=['GET'])
 def cancelar():
